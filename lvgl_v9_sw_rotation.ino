@@ -10,7 +10,7 @@
 void setup()
 {
   Serial.begin(115200);
-  delay(8000);
+  delay(500);
   Serial.println("ESP32P4 MIPI DSI LVGL");
   
   lvgl_sw_rotation_main();
